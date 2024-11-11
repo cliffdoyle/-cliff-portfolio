@@ -1,16 +1,6 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["esnext", "dom"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules"]
+  // Note: This config is only used to help editors like VS Code understand/resolve
+  // parts, the actual transpilation is done by babel. Any compiler configuration in
+  // here will be ignored.
+  "include": ["./node_modules/@sanity/base/types/**/*.ts", "./**/*.ts", "./**/*.tsx"]
 }
