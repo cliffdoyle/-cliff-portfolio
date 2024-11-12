@@ -4,6 +4,7 @@ import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import cliff from '../assets/cliff.png';
+import CLIFFD from '../assets/CLIFFD..png';
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
 import git from '../assets/git.png';
@@ -71,4 +72,5 @@ export default {
   skype,
   spotify,
   cliff,
+  CLIFFD,
 };
